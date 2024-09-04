@@ -1,0 +1,89 @@
+<!--
+	FORM
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>bump2toddler - form</title>
+
+
+<!-- Bootstrap & Custom styles -->
+<!-- Latest compiled and minified CSS -->
+<!-- Bootstrap & Custom styles -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+
+
+<!--Custom Font/s-->
+
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+
+<!-- load the javascript required to validate and submit the form via ajax -->
+	<script type="text/javascript" src="assets/main.js"></script>
+
+</head>
+
+<body>
+<div class="container container-form">
+
+	 <div id="logo1" class="logo center-block"><img style='height: 100%; width: 100%; object-fit: contain' src="images/final-b2t-logo.png"></div>
+
+       <div id="logo2" class="logo center-block"  width="80%"><img style='height: 100%; width: 100%; object-fit: contain' src="images/final-b2t-logo.png"></div>
+
+	<div class="head-form"><h3>Please let us know what courses or support you might be interested in and ask me any questions here - I'll get back to you as soon as I can...</h3></div>
+
+<!-- begin form html -->
+<form id="form-b2t" class="center-block" action="assets/sendform.php" method="post">
+	<ul>
+		<li class="default required">
+			<label for="id_name">Name</label>
+			<input type="text" name="name" id="id_name" />
+		</li>
+		<li class="default required">
+			<label for="id_email-address">Email Address</label>
+			<input type="text" name="email-address" id="id_email-address" />
+		</li>
+		<li class="default">
+			<label for="id_telephone-number">Telephone number</label>
+			<input type="text" name="telephone-number" id="id_telephone-number" />
+		</li>
+		<li class="default required">
+			<label for="id_estimated-date-of-delivery-birth-date-of-baby">Estimated Date of Delivery/Birth Date of baby</label>
+			<input type="text" name="estimated-date-of-delivery-birth-date-of-baby" id="id_estimated-date-of-delivery-birth-date-of-baby" />
+		</li>
+		<li class="default required">
+			<label for="id_your-location-town">Your location (town)</label>
+			<input type="text" name="your-location-town" id="id_your-location-town" />
+		</li>
+		<li class="required">
+			<label for="id_which-courses-or-services-are-you-interested-in">Which courses or services are you interested in?</label>
+			<textarea name="which-courses-or-services-are-you-interested-in" id="id_which-courses-or-services-are-you-interested-in"></textarea>
+		</li>
+		<li class="default">
+			<label for="id_do-you-have-any-questions">Do you have any questions?</label>
+			<textarea name="do-you-have-any-questions" id="id_do-you-have-any-questions"></textarea>
+		</li>
+		<li>
+			<input type="submit" value="Send" />
+		</li>
+	</ul>
+</form>
+<!-- end form html -->
+
+ <div class="col-md-4 press center-block text-center">
+    <a class="btn btn-info contact-button" href="http://www.bump2toddler.co.uk" role="button" style="font-weight: bold"><h4>Back to bump2toddler website</h4></a>
+
+  </div>
+  
+</div>
+</body>
+</html>

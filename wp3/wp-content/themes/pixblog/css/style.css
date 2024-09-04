@@ -1,0 +1,275 @@
+/*
+Theme Name: Pixblog
+Theme URI: http://wordpress.org/themes/pixblog
+Author: Carole Nissen
+Author URI: http://wordpress.org/
+Description: Blog for website of pixelista.net
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*-------------
+WP PAGES
+______________*/
+
+body {
+  background-image: url('img/clouds25.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+article.post {
+  text-align: justify;
+  margin-right: 50px;
+  margin: 20px 0 60px;
+}
+
+.single-posts {
+  text-align: justify;
+}
+
+.admin-bar .navbar-fixed-top {
+  margin-top: 30px;
+}
+
+.blog-panel {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding: 10px;
+  width: 60%;
+}
+
+.blog-header {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.blog-body {
+  min-height: 30em !important;
+  padding-bottom: 20em;
+}
+
+.sidebar {
+  margin-top: 20em;
+}
+.single-posts {
+  margin-top: 5em;
+}
+
+/*------------
+    HOLDING PAGE
+    ______________*/
+
+#hello {
+  width: 60%;
+  margin-top: 5em;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#hello p {
+  font-size: 16px !important;
+}
+
+/*----------------
+     PAGE STRUCTURES 
+     __________________*/
+
+/* CHANGE NAVBAR OPACITY */
+
+.navbar-default {
+  background-color: rgba(
+    99,
+    184,
+    255,
+    0.9
+  ); /* Red [0-255], Green [0-255], Blue [0-255], Alpha [0-1] */
+}
+
+div.navbar-default > div.container {
+  background-color: rgba(
+    99,
+    184,
+    255,
+    0.9
+  ); /* Red [0-255], Green [0-255], Blue [0-255], Alpha [0-1] */
+}
+
+.navbar-default a {
+  color: #000000 !important;
+  font-family: 'Lato', 'arial', 'sans-serif' !important;
+}
+
+.navbar-default a:hover {
+  color: grey !important;
+}
+
+.navbar-default a:focus {
+  color: lightgrey !important;
+  background-color: #64a5dc !important;
+}
+
+body,
+p,
+a {
+  font-family: 'Lato,', 'arial', 'sans-serif' !important;
+  background-color: transparent !important;
+}
+
+h1 {
+  font-family: 'Raleway', 'arial', 'sans-serif' !important;
+  font-size: 4em !important;
+  font-weight: 800 !important;
+}
+
+.navbar-inner {
+  position: relative;
+  padding-left: 70px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+h2,
+h3 {
+  font-family: 'Raleway', 'sans-serif' !important;
+  font-weight: bold !important;
+}
+
+.heading {
+  padding-top: 1.75em;
+  padding-bottom: 2em;
+}
+
+.heading-with-tagline {
+  padding-top: 1em;
+}
+
+.tagline {
+  text-align: center;
+  font-family: 'Lato', 'arial', 'sans-serif' !important;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+/* FOOTER */
+footer {
+  min-height: 100px;
+  background-color: white;
+  vertical-align: middle;
+  margin-bottom: 4em;
+}
+
+.footer {
+  margin: 8px;
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+/*------
+    TAB NAV
+    ________*/
+
+.wrap {
+  margin-top: 150px;
+}
+
+*/ .group:before,
+.group:after {
+  content: ' '; /* 1 */
+  display: table; /* 2 */
+}
+
+.group:after {
+  clear: both;
+}
+/*------------
+    MEDIA QUERIES
+    ______________*/
+
+/*TO CENTRE LINKS IN NAVBAR LARGER SCREENS*/
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 45px !important;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px !important;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+  body {
+    font-size: 13px !important;
+  }
+
+  /* MOBILE NAVBAR (not transparent) */
+
+  .navbar-default {
+    background-color: rgba(99, 184, 255);
+  }
+
+  div.navbar-default > div.container {
+    background-color: rgba(99, 184, 255);
+  }
+}
+
+@media (max-width: 470px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  footer h3 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+}
+.test {
+  flex: 1;
+}

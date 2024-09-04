@@ -1,0 +1,15 @@
+import blockContent from './blockContent'
+import post from './post'
+import author from './author'
+import projectPage from './projectPage'
+import project from './project'
+import about from './about'
+import home from './home'
+import blog from './blog'
+import navigation from './navigation'
+import page_AboutType from './page_aboutType'
+import page_homeType from './page_homeType'
+import link from './link'
+import navigationItem from './navItem'
+
+export const schemaTypes = [post, author, projectPage, project, about, home, blockContent, blog, navigation, page_AboutType, page_homeType, link, navigationItem]

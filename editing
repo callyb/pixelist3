@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"></meta>
+
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  ></meta>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  ></meta>
+
+  <meta
+    name="description"
+    content="Friendly, personal, easy to use service and responsive websites that work on a wide range of devices and browsers - all for a clear affordable price"
+  ></meta>
+
+  <meta
+    name="author"
+    content="Carole Ann Nissen"
+  ></meta>
+
+  <title>Pixelist.Design</title>
+
+  <!-- Open Graph data -->
+
+  <meta
+    property="og:title"
+    content="Pixelist Design"
+  ></meta>
+
+  <meta
+    property="og:type"
+    content="website"
+  ></meta>
+
+  <meta
+    property="og:url"
+    content="http://www.pixelist.design/"
+  ></meta>
+
+  <meta
+    property="og:description"
+    content="Friendly, personal, easy to use service and responsive websites that work on a wide range of devices and browsers - all for a clear affordable price."
+  ></meta>
+
+  <meta
+    property="og:image"
+    content="http://pixelist.design/img/p_logo.png"
+  ></meta>
+
+  <!-- Twitter Card data -->
+
+  <meta
+    name="twitter:card"
+    content="summary"
+  ></meta>
+
+  <meta
+    name="twitter:site"
+    content="@PixelistDesign"
+  ></meta>
+
+  <meta
+    name="twitter:title"
+    content="Pixelist Design"
+  ></meta>
+
+  <meta
+    name="twitter:description"
+    content="Friendly, personal, easy to use service and responsive websites that work on a wide range of devices and browsers - all for a clear affordable price"
+  ></meta>
+
+  <meta
+    name="twitter:creator"
+    content="@PixelistDesign"
+  ></meta>
+
+  <!-- Twitter Summary card images must be at least 120x120px -->
+
+  <meta
+    name="twitter:image"
+    content="http://www.pixelist.design/img/p_logo.png"
+  ></meta>
+
+  <!-- FAVICONS -->
+
+  <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="favicons/apple-touch-icon-57x57.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="60x60"
+    href="favicons/apple-touch-icon-60x60.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="72x72"
+    href="favicons/apple-touch-icon-72x72.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="favicons/apple-touch-icon-76x76.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="favicons/apple-touch-icon-114x114.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="120x120"
+    href="favicons/apple-touch-icon-120x120.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="144x144"
+    href="favicons/apple-touch-icon-144x144.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="favicons/apple-touch-icon-152x152.png"
+  ></link>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="favicons/apple-touch-icon-180x180.png"
+  ></link>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="favicons/favicon-32x32.png"
+    sizes="32x32"
+  ></link>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="favicons/favicon-194x194.png"
+    sizes="194x194"
+  ></link>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="favicons/favicon-96x96.png"
+    sizes="96x96"
+  ></link>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="favicons/android-chrome-192x192.png"
+    sizes="192x192"
+  ></link>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="favicons/favicon-16x16.png"
+    sizes="16x16"
+  ></link>
+
+  <link
+    rel="manifest"
+    href="/manifest.json"
+  ></link>
+
+  <meta
+    name="msapplication-TileColor"
+    content="#2b5797"
+  ></meta>
+
+  <meta
+    name="msapplication-TileImage"
+    content="/mstile-144x144.png"
+  ></meta>
+
+  <meta
+    name="theme-color"
+    content="#ffffff"
+  ></meta>
+
+  <!-- Bootstrap CSS -->
+
+  <link
+    href="css/bootstrap.min.css"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"
+    rel="stylesheet"
+  ></link>
+
+  <!-- Custom CSS -->
+
+  <link
+    href="css/style.css"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    rel="stylesheet"
+    href="css/font-awesome/css/font-awesome.min.css"
+  ></link>
+
+  <link
+    href="css/animate.min.css"
+    rel="stylesheet"
+  ></link>
+
+  <!-- MODERNIZR -->
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <!-- FONTS -->
+
+  <link
+    href="//fonts.googleapis.com/css?family=Lato%7CRaleway"
+    rel="stylesheet"
+    type="text/css"
+  ></link>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif] -->
+</head>
+
+<body>
+  <!-- Navigation -->
+
+  <nav
+    class="navbar navbar-default navbar-fixed-top"
+    role="navigation"
+    data-0="opacity: 0.5"
+    data-180="opacity: 1"
+  >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target=".navbar-ex1-collapse"
+        >
+          <span class="sr-only">Toggle navigation</span>
+
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+
+      <div class="navbar-collapse collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a
+              tabindex="1"
+              href="#intro"
+              class="scroll-link"
+              data-id="intro"
+            >Introducing</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#what"
+              class="scroll-link"
+              data-id="what"
+            >What we offer</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#how"
+              class="scroll-link"
+              data-id="how"
+            >How we work</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#who"
+              class="scroll-link"
+              data-id="who"
+            >Who we are</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#done"
+              class="scroll-link"
+              data-id="done"
+            >Portfolio</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#prices"
+              class="scroll-link"
+              data-id="prices"
+            >Prices</a>
+          </li>
+
+          <li>
+            <a
+              tabindex="1"
+              href="#contact"
+              class="scroll-link"
+              data-id="contact"
+            >Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- /.navbar-collapse -->
+    </div>
+
+    <!-- CLOSE 'CONTAINER-FLUID' -->
+  </nav>
+
+  <!-- Intro div -->
+
+  <div
+    id="intro"
+    class="page-section"
+  >
+    <!-- <div>
+      <div class="panel-heading"><h3>Coming Soon...</h3></div>
+
+      <div class="panel-body">Pixelist Design: interiors</div>
+    </div> -->
+
+    <div id="logo">
+      <img
+        class="img-responsive logo center-block"
+        src="img/pixelist.design.logo.png"
+        alt="pixelista logo"
+      >
+    </div>
+
+    <div
+      id="logo_mobile2"
+      class="center-block"
+    >
+      <img
+        class="img-responsive"
+        src="img/pixelist.design.small.png"
+        alt="pixelista logo"
+      >
+    </div>
+
+    <div class="row spacer">
+      <div class="col-sm-6 col-sm-offset-3 text-center tagline">
+        Friendly, personal, easy to use service and responsive websites that work on a wide range of devices and browsers - all for a clear affordable price.
+      </div>
+
+      <div
+        class="col-sm-6 col-sm-offset-3 text-center tagline"
+        style="margin-top: 3em;"
+      >
+        <button
+          id="covid"
+          class="covid_div btn btn-primary"
+          data-toggle="collapse"
+          data-target="#covid-text"
+          aria-expanded="false"
+          aria-controls="covid-text"
+          style="padding:10px;"
+        >
+          <h2
+            class="text-center"
+            style="margin: 0px;"
+          >Covid 19 update</h2>
+        </button>
+
+        <div
+          id="covid-text"
+          class="collapse"
+          style="font-size: .8em; text-align: left; margin-top: 1em; font-weight: 400;"
+        >
+          <span>Unlike so many others who are still fighting it, I'm hopefully coming to the end of my battle with Long Covid.  It's been a long 2 years but as my body recovers I find I'm so keen to get back to work and I'm now taking on carefully planned projects!</span>
+
+          <span>So...I'm open for business and keen to start new projects but I'm being careful not to over commit and take on more than I can deliver so I'm putting that front & centre so you know...!  After the last 2 years I will be aiming for quality not quantity so if I agree to take on your work, rest assured you will have my full attention.</span><br /><br /><span>So if you're interested in Pixelist's services, please have a look through this website and let me know through email or the contact form below what your requirements are.  I will be very honest with you about if I am the right designer for your project, and if I do take on the work you can be sure it's because I know I can do an excellent job for you.  Thank you for bearing with me and I hope you enjoy the website.  Keep safe...Carole (Pixelist Design)
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="tt-logos"
+      class="row"
+    >
+      <div
+        id="fb"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center"
+      >
+        <div
+          id="tooltipfb"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Facebook"
+        >
+          <a href="https://www.facebook.com/pixelist.design/">
+            <span class="fa fa-facebook logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="twit"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center twit-icon"
+      >
+        <div
+          id="tooltiptw"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Twitter"
+        >
+          <a href="https://twitter.com/PixelistDesign">
+            <span class="fa fa-twitter logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="linked"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center"
+      >
+        <div
+          id="tooltipli"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Linkedin"
+        >
+          <a href="https://uk.linkedin.com/in/pixelistdesign">
+            <span class="fa fa-linkedin logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-5ths col-xs-6 text-center ciw-icon">
+        <div
+          id="tooltipciw"
+          class="center-block"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="CIW Web Design Specialist qualification"
+        >
+          <a href="http://www.ciwcertified.com/certifications/web_design_series/design.php">
+            <img
+              src="img/ciw_logo.png"
+              alt="ciw logo"
+              class="logos"
+            >
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+        <div
+          id="tooltipneb"
+          class="center-block"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Funding for your website"
+        >
+          <a href="https://nbsl.org.uk/how-we-can-help/growing-your-business">
+            <img
+              src="img/NEBSF.png"
+              alt="NEBSF logo"
+              class="logos"
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row arrows-div">
+      <!-- row -->
+
+      <div
+        id="arrows-text"
+        class="col-md-4 col-md-offset-4"
+      >
+        <ul class="nav">
+          <li>
+            <a
+              href="#contact"
+              class="scroll-link"
+              data-id="contact"
+            >
+              <button
+                class="btn btn-warning btn-intro"
+                data-toggle="button"
+                autocomplete="off"
+              >
+                <span class="scrolldown">Contact Pixelist Now</span>
+              </button>
+
+              <div
+                id="arrows"
+                class="animated bounce center-block text-center"
+              >
+                <span class="fa fa-caret-down"></span>
+                <span class="fa fa-caret-down"></span>
+                <span class="fa fa-caret-down"></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- end row -->
+  </div>
+
+  <!-- END INTRO -->
+  <!-- PAGE CONTAINER -->
+
+  <main>
+    <div
+      id="background-div"
+      class="container-fluid"
+      data-bottom-top="background-position: 100% 0%"
+      data-top-bottom="background-position: 50% -100%"
+    >
+      <!-- What I do -->
+
+      <div
+        id="what"
+        class="row page-section text-center"
+      >
+        <div class="heading">
+          <h1>we offer...</h1>
+        </div>
+
+        <div
+          id="webdesign"
+          class="col-md-6 col-lg-3 text-center"
+        >
+          <div class="inner">
+            <h2>Full Design Web Service</h2>
+
+            <span>
+              <p>
+                the website you always wanted...we do it all - we can help you write the text, commission the photos (or take some ourselves) talk you through what you need, and come up with your own best website or web app. Or you can supply all the text, pics etc for an economical option.  Whatever package you choose it will work on the widest range of devices and browsers possible.
+              </p>
+
+              <p>
+                Or perhaps you have an old website you're particularly fond of but it doesn't work in iphones, tablets, or anything other than a traditional computer screen?  We'll overhaul the design and upgrade your website to be fully responsive.  Or if you prefer, we can even duplicate your old website so it will look the same but work fully in all devices - the choice is yours.
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div
+          id="hosting"
+          class="col-md-6 col-lg-3 text-center clearfix"
+        >
+          <div class="inner">
+            <h2>Apps</h2>
+
+            <span>
+              <p>
+                for Android and iOS.  We provide apps that are responsive and reliable to give your organisation the best complement to a strong website.  Our focus is firmly on your clients, giving users the best possible introduction to you, your product or your service.  We can work to your brief, or we can work with you to come up with ideas for an app that will showcase you perfectly in this fast growing market...
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div class="clearfix visible-md"></div>
+
+        <div
+          id="support"
+          class="col-md-6 col-lg-3 text-center"
+        >
+          <div class="inner">
+            <h2>Hosting and Ongoing Support</h2>
+
+            <span>
+              <p>
+                for our own clients.  Cheap, easy and free hosting for the first year when you buy one of our web packages (see prices).  We register and set up your domain name (name of your website) and host your website on superfast servers - we take away the headaches and make sure that your website works just how you want it to 24/7.
+              </p>
+
+              <p>
+                We can also provide ongoing support with office hours customer service and various options to suit your situation (and budget!)  We can either update your website for you
+              </p>
+            </span>
+
+            <h4>OR</h4>
+
+            <p>
+              provide it with a Content Management System in place (links you use to update it yourself).
+            </p>
+          </div>
+        </div>
+
+        <div
+          id="social"
+          class="col-md-6 col-lg-3 text-center"
+        >
+          <div class="inner">
+            <h2>Social Media</h2>
+
+            <span>
+              we will set up and design your facebook page, set up your twitter or instagram account, (or any other social media you want) and then hand it over to you or manage it for you - a phone chat once a week will give us all we need to post and tweet your latest news and views on your behalf - easy!
+            </span>
+          </div>
+        </div>
+
+        <div class="clearfix visible-md"></div>
+        <div class="clearfix visible-lg"></div>
+      </div>
+
+      <!-- CLOSE WHAT -->
+      <!-- How I work -->
+
+      <div
+        id="how"
+        class="page-section text-center"
+      >
+        <div class="row">
+          <div class="heading">
+            <h1>how we work...</h1>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="inner2">
+              <span class="fa fa-coffee fa-3x center-block text-center"></span>
+
+              <h3>We talk about it!</h3>
+
+              <p>
+                We can talk on the phone - though we quite like to meet for a cuppa while we talk in person - then we can chat through our list of questions that will give us all we need to know to come up with your website.  Or we can email them to you for you to complete as a questionnaire if you prefer.  We will also talk you through our packages (see 'prices') and advise you on grant aid you might be eligible for to help pay for your website - I am a registered Provider for NBSL’s North East Business Support Fund helping businesses to improve their competitiveness.
+
+                <br>
+
+                <strong>
+                  Please note: Funding now available for projects in Northumberland, Tyne and Wear and Co Durham.
+                </strong>
+
+                <br>
+                Find out more about this funding here...
+
+                <a href="https://nbsl.org.uk/north-east-business-support-fund">
+                  <span class="fa fa-info fa-2x"></span>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="inner2">
+              <span class="fa fa-pencil-square-o fa-3x center-block text-center"></span>
+
+              <h3>Pick your package...</h3>
+
+              <p>
+                We can do as much or as little as you like - pick a web template from one of our recommended suppliers, and we can simply turn it into your website, or we'll design from scratch based on our discussions, adding packages such as maintainance and social media management as you decide.  As for price, pick a package or packages, or we can charge by the day/hour - it's up to you!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="inner2">
+              <span class="fa fa-thumbs-o-up fa-3x center-block text-center"></span>
+
+              <h3>We do the work!</h3>
+
+              <p>
+                You will get feedback throughout the process, and if you like, a prototype to check before we develop it fully.  We will optimise your site in line with current standards (though we can advise you and work with a specialist on your behalf if you want more guaranteed results)  And within the agreed timescale your website will go live!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CLOSE ROW -->
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="inner2">
+              <span class="fa fa-code fa-3x center-block text-center"></span>
+
+              <h3>We write code!</h3>
+
+              <p>
+                We write websites from scratch using code (mainly HTML5, CSS3, JavaScript/JQuery and PHP).  We don't use Dreamweaver, or MS Expression, or Wix or any other such tool because we like to have full control over our own code.  This will give you full control over your website...If something is wrong, we can fix it in seconds by getting straight back into our code and re-writing something.  We do however work with 'frameworks', mainly 'Bootstrap' which sets up a framework for the website that guarantees (if you use it properly - and we do!) that your website will be fully 'valid and responsive' i.e. it will work as you intend it to in the widest possible range of browsers and devices (tablets, smart phones, desktops etc).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CLOSE ROW -->
+      </div>
+
+      <!-- CLOSE HOW I WORK -->
+      <!-- WHO ARE WE -->
+
+      <div
+        id="who"
+        class="page-section wrapper text-center"
+      >
+        <div class="heading heading-with-tagline text-center">
+          <h1>
+            Who are we (actually it's mostly just me!)
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 tagline">
+            Hopefully the most important thing is for you to see my portfolio and qualifications and know that I'm reliable, professional, qualified, and a perfectionist, and I love design and coding! If you want to know anything else - see below...
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="panel col-md-10 col-md-offset-1"
+            style="margin-top:5px"
+          >
+            <div
+              class="panel-group"
+              id="accordion2"
+            >
+              <div
+                class="panel panel-default"
+                style="margin-top:5px"
+              >
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion1"
+                      href="#collapseOne"
+                    >Pixelist Design</a>
+                  </h4>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="panel-collapse collapse in"
+                >
+                  <div class="panel-body">
+                    <p>
+                      My name is Carole Nissen.  For many years I worked in music and the arts but about 5 years ago retrained as a web designer and developer.  I have various qualifications including CIW's 'Web Design Specialist' (a leading certification credential for Internet and Web skills), CS50 - Harvard University's challenging and comprehensive Introductory Computer Science course, and I've undertaken a wide range of self directed learning on Freecodecamp, Treehouse and Udemy - all widely recognised Computer Science and coding training sites.  This has given me a solid understanding of the code and skills needed to produce websites, apps and digital User Interfaces.  I also now have been trading as Pixelist Design for over 3 years, working for a range of clients producing and maintaining websites and (more recently) apps.
+                    </p>
+
+                    <p>
+                      As someone who has worked freelance for almost my entire working life, I have excellent time management and organisational skills and a wide network of fellow professionals in various disciplines who I am happy to bring on board if your project needs it - so if it's appropriate then you may get 'us' too...
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion2"
+                      href="#collapseTwo"
+                    >Previous Work</a>
+                  </h4>
+                </div>
+
+                <div
+                  id="collapseTwo"
+                  class="panel-collapse collapse"
+                >
+                  <div class="panel-body">
+                    <p>
+                      (The short version) I have a long and complicated history - most of it based in the Newcastle upon Tyne & the North East! I started my working life as a puppeteer and actor in a community theatre company and after working freelance for some time after that I had a brief spell working for the local council (my "I just reached 30 and need a proper job' job) before settling at Riverside Independent Music Venue for the next 4 years, where I worked my way up to the post of Assistant Director.  After leaving Riverside I worked freelance again, gaining experience in other artforms and areas. I then joined Northern Arts, as the Arts Council England northern office was then known. I started as the 'Arts for Everyone Co-ordinator', then was seconded to coordinate Radio One Sound City in Newcastle - an amazing experience! Then I became 'Special Projects Officer' and after a few more years of freelance Arts Consultancy covering a wide range of really interesting work and working as a salsa dance instructor/dancer I had some some time off with a major illness (now recovered) and then I was ready for a change.  After retraining at the Inchbald School of Design in London as an Architectural Interior Designer in 2006 I moved to Spain for nearly 5 years, where I renovated property.  After that market somewhat dried up in 2010, I returned to the uk to family commitments. As those commitments became more manageable, I retrained again as a qualified web designer/developer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion2"
+                      href="#collapseTwenty"
+                    >Spare Time</a>
+                  </h4>
+                </div>
+
+                <div
+                  id="collapseTwenty"
+                  class="panel-collapse collapse"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Throughout my working life I have worked on music both in my spare time and in my career - originally singing & playing guitar in various bands, and then promoting salsa music nights.  I then moved on to DJing and dancing salsa, promoting regular salsa nights, and holding/being hired to run dance classes & dance exhibitions with my dance & DJ partners.  After a major accident I could no longer dance for a living - now my interests centre more around cycling, travel (my favourite trip so far?  A 6 month sabbatical backpacking round the world!), and remaining fluent in Spanish.  I still sing & play guitar and I'm continuing to build my collection of salsa and other music. I also remain involved in various arts initiatives in an advisory capacity and am Chair of the Board of the Globe Gallery - a visual art gallery based in Newcastle upon Tyne.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Row -->
+        </div>
+
+        <!-- END WHO ARE WE -->
+      </div>
+
+      <!-- PORTFOLIO -->
+
+      <section
+        id="done"
+        class="page-section wrapper text-center pt-5"
+      >
+        <div class="heading">
+          <h1>Previous Work (examples)</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 tagline mx-auto">
+            As the pandemic progressed it has been very difficult to see how many of my previous clients have had businesses that have not survived, please note that some of the sites below are file copies because the businesses are not currently trading.
+          </div>
+        </div>
+
+        <br>
+
+        <div id="gallery">
+          <div class="row modal-row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <figure onclick="void(0)">
+                <img
+                  src="img/johnnyg.jpg"
+                  alt="John G"
+                >
+
+                <figcaption>
+                  <div class="fc-headings main">JG Fundraising</div>
+
+                  <p>
+                    A personal fundraising site for a local athlete raising funds for Alzheimers research.  The site needed to contain full details of planned events with regular updates on times of completed events making it easy to sponsor John and keep informed on his progress.
+                  </p>
+
+                  <a href="http://www.johnnyg.co.uk">
+                    <h4>View website</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <figure>
+                <img
+                  src="img/fstave.jpg"
+                  alt="First Avenue Studios"
+                >
+
+                <figcaption>
+                  <div class="fc-headings main">First Avenue Studios</div>
+
+                  <p>
+                    A website for a small and friendly Newcastle based recording studio and rehearsal rooms.  The owner wanted to give clients a specific look, up to date information on the business, showcase audio files, link to a Facebook page and show plans/drawings of the building which we produced to order.
+                  </p>
+
+                  <a href="http://www.firstave.co.uk">
+                    <h4>View Website</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <figure>
+                <img
+                  src="img/amargura.jpg"
+                  alt="Amargura 11 Rental Homepage"
+                >
+
+                <figcaption>
+                  <div class="fc-headings main">Calle Amargura 11 Rental</div>
+
+                  <p>
+                    The house has now been sold so this is a copy of the amended site used to advertise the sale. A luxury holiday rental house in Spain.  The owner wanted to advertise, show descriptions & photos of the house, and incorporate an online booking system so that clients can book directly through the website.
+                  </p>
+
+                  <a href="http://pixelist.design/amargura">
+                    <h4>View Website</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <figure>
+                <img
+                  src="img/bump.jpg"
+                  alt="Bump2Toddler Homepage"
+                >
+
+                <figcaption>
+                  <div class="fc-headings main">Bump2Toddler services</div>
+
+                  <p>
+                    Note: The site is currently down so this is a reference copy. An ante natal consultant's website including custom designed logo, blog page that pulls in posts from tumblr & company facebook and twitter feeds (currently suspended) and a full CMS so the owner can the website.
+                  </p>
+
+                  <a href="http://pixelist.design/bump2toddler">
+                    <h4>View Website</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- End Row -->
+
+          <div class="row modal-row">
+            <div class="col-xs-12 col-sm-6 col-md-3 centered-content">
+              <figure>
+                <img
+                  src="img/powertrx.png"
+                  alt="Online CV page"
+                >
+
+                <figcaption>
+                  <div class="fc-headings">Powertronik</div>
+
+                  <p>
+                    New business working in electrification components for EVs (electric-powered vehicles), offering business to business supply, development and training.
+                  </p>
+
+                  <a href="http://powertroniks.com">
+                    <h4>View Website</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <figure>
+                <img
+                  src="img/JHpage.jpg"
+                  alt="Online CV page"
+                  style="width: 50%"
+                >
+
+                <figcaption class="JHpage">
+                  <div class="fc-headings">Online CV</div>
+
+                  <p>
+                    Online CV for a local sales director/VP of sales and worldwide troubleshooter in the automotive industry.  This included recreation of background from his business card for the header and an 'at a glance' visual of his CV.
+                  </p>
+
+                  <a href="http://teamaconsultants.com">
+                    <h4>View Online CV</h4>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <img
+                id="b2tLogo"
+                src="img/final-b2t-icon.jpg"
+                alt="Bump2Toddler Logo"
+                style="width:50%;max-width:150px"
+              >
+
+              <!-- The Modal -->
+
+              <div
+                id="myModal"
+                class="modal"
+              >
+                <span class="close2">&times;</span>
+
+                <img
+                  class="modal-content"
+                  id="img01"
+                >
+
+                <div id="caption">Logo design (click)</div>
+              </div>
+
+              <div>
+                <h4>Logo Design (click)</h4>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <img
+                id="b2tflyer"
+                src="img/b2t-a4-poster.jpg"
+                alt="Bump2Toddler Flyer"
+                style="width:50%;max-width:180px"
+              >
+
+              <!-- The Modal -->
+
+              <div
+                id="myModal2"
+                class="modal"
+              >
+                <span class="close">&times;</span>
+
+                <img
+                  class="modal-content"
+                  id="img02"
+                >
+
+                <div id="caption2">Flyer/Poster design (click)</div>
+              </div>
+
+              <div>
+                <h4>Flyer Design (click)</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- End row -->
+        </div>
+
+        <!-- End Gallery -->
+      </section>
+
+      <!-- END PORTFOLIO -->
+      <!-- PRICES -->
+
+      <div
+        id="prices"
+        class="text-center page-section"
+      >
+        <div class="heading heading-with-tagline">
+          <h1>Prices</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 tagline">
+            These costs give you an idea of the packages available - you can choose one of these, or we can talk to you about your needs and quote you a specific cost for your site, or we can work on an hourly fee - we will talk you through all the options at your free initial consultation.  And remember - and remember, we can help you to apply for a grant for over one third of the cost of your website!
+          </div>
+        </div>
+
+        <div class="row spacer price-text">
+          <div class="col-md-3 col-xs-12 pane text-center">
+            <h2>£150-£250</h2>
+
+            <h3>Single page 'homepage'</h3>
+
+            <p>
+              this is your 'foot on the ladder' of digital marketing - your own presence online while you work on a more detailed website or just see how it helps your business before you commit to a fuller package.  The starting price is if you provide all copy and images etc.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-xs-12 pane text-center">
+            <h2>£650</h2>
+
+            <h3>Website - up to 5 pages</h3>
+
+            <p>
+              with your own '.co.uk' domain name and free hosting for one year - this gives you a basic website with all the info you want your clients to see plus simple 'widgets' such as a contact form and photo gallery.  Redesigns also start at this price point and occasionally may be cheaper - but though you may have all your photos and text in the old site the coding required to upgrade is usually as extensive as doing it from scratch...
+            </p>
+          </div>
+
+          <div class="col-md-3 col-xs-12 pane text-center">
+            <h2>£1200</h2>
+
+            <h3>Website - up to 12 pages</h3>
+
+            <p>
+              with your own '.co.uk' or '.com' domain name and free hosting for one year - the 'deluxe' package!  This gives you plenty of room for advertising your services and can include more complex content to suit your business such as a basic shopfront with paypal.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-xs-12 pane text-center">
+            <h2>from £450</h2>
+
+            <h3>Apps</h3>
+
+            <p>
+              Depending on the project, prices start at £450 for a basic app.  We can show you a range of pre-made templates that we can customise for you so you can get your app up and running for a fraction of the price of a custom built app.  Or we can design it from the ground up for you.  Prices vary according to size and complexity.  Talk to us about your ideas and we'll come up with a fully itemised quote for you with no obligation.
+            </p>
+
+            <p>
+              A consultation session discussing possible ideas for apps starts at £99 (refundable if you then go on to commission an app from us).
+            </p>
+          </div>
+        </div>
+
+        <!-- end row -->
+      </div>
+
+      <!-- END PRICES -->
+      <!-- CONTACT -->
+      <!-- CONTACT -->
+
+      <div
+        id="contact"
+        class="page-section text-center"
+      >
+        <div class="heading text-center row">
+          <h1>Hire Me!</h1>
+
+          <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 tagline">
+            <p>
+              Do get in touch! If you're interested in getting me to design your website then just say that below and I'll phone or email you to discuss it or to arrange a meeting - if you prefer me to email you just leave your phone number blank.  Or if you have questions about your potential website, ask them here and I'll try to answer them!
+            </p>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <!-- Contacts -->
+
+        <div
+          id="contacts"
+          class="page-section"
+        >
+          <div class="row">
+            <!-- Alignment -->
+
+            <div class="col-sm-offset-3 col-sm-6">
+              <!-- Form itself -->
+
+              <fieldset>
+                <form
+                  id="contact-form"
+                  method="POST"
+                  role="form"
+                >
+                  <div class="controls">
+                    <h4 style="color: #009FE3">Contact Us</h4>
+
+                    <h6>
+                      Please complete the form below or for an even faster response phone us (see below)
+                    </h6>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div
+                          class="form-group"
+                          style="padding-bottom: 2em;"
+                        >
+                          <!-- <label for="name">Firstname *</label> -->
+
+                          <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            placeholder="Firstname *"
+                            required="required"
+                            data-error="Firstname is required."
+                          ></input>
+
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div
+                          class="form-group"
+                          style="padding-bottom: 2em;"
+                        >
+                          <!-- <label for="surname">Lastname *</label> -->
+
+                          <input
+                            id="surname"
+                            type="text"
+                            name="surname"
+                            class="form-control"
+                            placeholder="Lastname *"
+                            required="required"
+                            data-error="Lastname is required."
+                          ></input>
+
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div
+                          class="form-group"
+                          style="padding-bottom: 2em;"
+                        >
+                          <!-- <label for="email">Email *</label> -->
+
+                          <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="Email *"
+                            required="required"
+                            data-error="Valid email is required."
+                          ></input>
+
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div
+                          class="form-group"
+                          style="padding-bottom: 2em;"
+                        >
+                          <!-- <label for="phone">Telephone Number</label> -->
+
+                          <input
+                            id="phone"
+                            type="tel"
+                            name="phone"
+                            class="form-control"
+                            placeholder="Telephone number"
+                          ></input>
+
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div
+                          class="form-group"
+                          style="padding-bottom: 2em;"
+                        >
+                          <!-- <label for="message">Message *</label> -->
+
+                          <textarea
+                            id="message"
+                            type="text"
+                            name="message"
+                            class="form-control"
+                            placeholder="How can we help you *"
+                            rows="4"
+                            required="required"
+                            data-error="Please, leave us a message."
+                          ></textarea>
+
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="text-muted">
+                          <strong>*</strong>
+
+                          These fields are required.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div
+                        class="col-md-12"
+                        style="padding-top: 2em;"
+                      >
+                        <button
+                          type="submit"
+                          id="form-submit"
+                          class="btn btn-success btn-lg"
+                        >Submit</button>
+
+                        <div
+                          id="msgSubmit"
+                          class="h4 d-none"
+                          style="color: red; display: none;"
+                        >
+                          Thank you, your message has been successfully submitted and you will hear from us soon!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </fieldset>
+            </div>
+          </div>
+
+          <!-- end row -->
+
+          <div class="phone-me text-center center-block well">
+            <span class="fa fa-phone fa-lg phone text-center"></span>
+            Carole Nissen on 07541 819383
+          </div>
+        </div>
+      </div>
+
+      <!-- END CONTACT -->
+    </div>
+
+    <!-- END PAGE CONTAINER -->
+  </main>
+
+  <!-- END MAIN -->
+
+  <footer>
+    <div
+      id="tt-logos1"
+      class="row logos-footer"
+    >
+      <div
+        id="fb1"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center"
+      >
+        <div
+          id="tooltipfb1"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Facebook"
+        >
+          <a href="https://www.facebook.com/pixelista.design/">
+            <span class="fa fa-facebook logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="twit1"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center twit1"
+      >
+        <div
+          id="tooltiptw1"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Twitter"
+        >
+          <a href="https://twitter.com/PixelistDesign">
+            <span class="fa fa-twitter logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="linked1"
+        class="col-md-5ths col-sm-4 col-xs-6 text-center"
+      >
+        <div
+          id="tooltipli1"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Linkedin"
+        >
+          <a href="https://www.linkedin.com/hp/?dnr=S5xFr2w081ctpsKwY5lCrBZu8mimpnTnlpCD">
+            <span class="fa fa-linkedin logos"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-5ths col-xs-6 text-center ciw1">
+        <div
+          id="tooltipciw1"
+          class="center-block"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="CIW Web Design Specialist qualification"
+        >
+          <a href="http://www.ciwcertified.com/certifications/web_design_series/design.php">
+            <img
+              src="img/ciw_logo.png"
+              alt="ciw logo"
+              class="logos"
+            >
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-5ths col-sm-6 col-xs-12 text-center neb1">
+        <div
+          id="tooltipneb1"
+          class="center-block"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Funding for your website"
+        >
+          <a href="https://www.nbsl.org.uk/nebsf">
+            <img
+              src="img/NEBSF.png"
+              alt="NEBSF logo"
+              class="logos"
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h3>&copy; Pixelist.design</h3>
+    </div>
+  </footer>
+
+  <!-- SCRIPT SOURCES -->
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Additional scripts -->
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+  <!-- MODAL -->
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('b2tLogo');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  </script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal2');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('b2tflyer');
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption2");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close2")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  </script>
+
+  <!-- NAV FUNCTION -->
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+  // navigation click actions
+  $(".scroll-link").on("click", function(event) {
+    event.preventDefault();
+    var sectionID = $(this).attr("data-id");
+    scrollToID("#" + sectionID, 750);
+  });
+  // scroll to top action
+  $(".scroll-top").on("click", function(event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  });
+  // mobile nav toggle
+  $("#nav-toggle").on("click", function(event) {
+    event.preventDefault();
+    $("#main-nav").toggleClass("open");
+  });
+});
+// scroll function
+function scrollToID(id, speed) {
+  var offSet = 50;
+  var targetOffset = $(id).offset().top - offSet;
+  var mainNav = $("#main-nav");
+  $("html,body").animate({ scrollTop: targetOffset }, speed);
+  if (mainNav.hasClass("open")) {
+    mainNav
+      .css("height", "1px")
+      .removeClass("in")
+      .addClass("collapse");
+    mainNav.removeClass("open");
+  }
+}
+if (typeof console === "undefined") {
+  console = {
+    log: function() {}
+  };
+}
+  </script>
+
+  <!-- stops navbar staying open on mobile screens -->
+
+  <script>
+    $(".nav a").on("click", function() {
+  $(".navbar-toggle").click(); //bootstrap 3.x
+});
+  </script>
+
+  <!-- INTRO PAGE TOOLTIPS -->
+
+  <script>
+    $(function() {
+  $('[data-toggle="tooltip"]').tooltip(
+   
+  )
+});
+  </script>
+
+  <!-- 'WHO' TABS -->
+
+  <script>
+    $(function() {
+  $("#myTab a:first").tab("show");
+});
+  </script>
+
+  <!-- GOOGLE ANALYTICS -->
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+  i["GoogleAnalyticsObject"] = r;
+  (i[r] =
+    i[r] ||
+    function() {
+      (i[r].q = i[r].q || []).push(arguments);
+    }),
+    (i[r].l = 1 * new Date());
+  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m);
+})(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+
+ga("create", "UA-62782988-1", "auto");
+ga("send", "pageview");
+  </script>
+</body>
+</html>

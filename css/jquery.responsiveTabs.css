@@ -1,0 +1,117 @@
+/* Accordion to tabs layout (necessary) */
+/* ------------------------------------ */
+.tab-menu-mobile {
+  display: inline-block;
+}
+.tab-menu-mobile:before {
+  /* Label of accordion are copied in pseudo-selector (work on IE8+) */
+  content: attr(data-tab-label);
+  display: block;
+}
+
+.tab-container {
+  position: relative;
+}
+
+/* Smaller device */
+@media only screen and (max-width: 599px) {
+  .tab-menu {
+    display: none;
+  }
+
+  .tab-container--inner {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition-property: max-height, visibility;
+    -moz-transition-property: max-height, visibility;
+    -o-transition-property: max-height, visibility;
+    transition-property: max-height, visibility;
+    -webkit-transition-duration: 600ms;
+    -moz-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+  }
+
+  .tab-container--section.is-visible .tab-container--inner {
+    max-height: 1500px;
+    visibility: visible;
+  }
+}
+/* Higher device */
+@media only screen and (min-width: 600px) {
+  .tab-menu-mobile {
+    display: none;
+  }
+
+  .tab-container--section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    visibility: hidden;
+  }
+  .tab-container--section.is-visible {
+    position: relative;
+    left: auto;
+    top: auto;
+    z-index: 1;
+    visibility: visible;
+  }
+}
+/* Accordion to tabs style (optional) */
+/* ---------------------------------- */
+body {
+  font: 15px Arial, "Helvetica", sans-serif;
+}
+
+.tab-menu-mobile, .tab-menu--trigger {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #bbb;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 300ms linear;
+  -moz-transition: background 300ms linear;
+  -o-transition: background 300ms linear;
+  transition: background 300ms linear;
+}
+.tab-menu-mobile.is-active, .tab-menu--trigger.is-active {
+  background-color: #bbb;
+  color: white;
+}
+
+.tab-menu-mobile {
+  width: 100%;
+}
+.tab-menu-mobile:before {
+  content: attr(data-tab-label);
+  display: block;
+}
+
+.tab-menu {
+  padding: 0;
+  border-bottom: 1px solid #bbb;
+}
+.tab-menu li {
+  float: left;
+  width: 33.33333%;
+  list-style: none;
+}
+
+.tab-menu--trigger {
+  display: block;
+}
+
+.cf:after, .clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
